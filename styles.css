@@ -2,123 +2,88 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0f5e0; /* Vert pâle pour le fond */
+    background-color: #e0f5e0;
 }
 
 header {
-    background-color: #006400; /* Vert foncé pour le header */
+    background-color: #006400;
     color: #fff;
     padding: 10px;
     text-align: center;
     width: 100%;
     display: flex;
-    align-items: center; /* Aligner verticalement le contenu du header */
-    justify-content: center; /* Espace entre les éléments horizontalement */
+    align-items: center;
+    justify-content: center;
 }
 
 .logo img {
     width: 40px;
 }
 
-.image-gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px; /* Espace entre le header et la galerie d'images */
-}
-
-.image-container {
-    margin: 10px;
-}
-
-.image-container img {
-    width: 200px; /* Ajustez la largeur selon vos besoins */
-    height: auto; /* Maintient le ratio d'aspect de l'image */
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: center; /* Centrer horizontalement les éléments de la liste */
-}
-
-nav ul li {
-    margin: 0 10px; /* Ajuster la marge des liens */
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100vh;
 }
 
 .content {
     flex: 1;
     padding: 20px;
-    text-align: center; /* Ajout de la propriété pour centrer le texte dans le contenu */
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #006400;
+    color: #fff;
+    cursor: pointer;
 }
 
 .sidebar {
     width: 200px;
-    background-color: #4CAF50; /* Vert standard pour la barre latérale */
+    background-color: #4CAF50;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
-h2 {
+.sidebar h2 {
     color: #333;
 }
 
-ul {
+.sidebar ul {
     list-style-type: none;
     padding: 0;
 }
 
-li {
+.sidebar li {
     margin-bottom: 10px;
 }
 
-a:hover {
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.sidebar a:hover {
     text-decoration: underline;
 }
-/* ... Autres styles ... */
-/* ... Autres styles ... */
 
-.image-gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.image-container {
-    margin: 10px;
-    flex: 1 0 calc(50% - 20px); /* Pour deux colonnes */
-    max-width: calc(50% - 20px);
-}
-
-/* Si vous souhaitez trois colonnes, utilisez le code ci-dessous à la place */
-/*
-.image-container {
-    margin: 10px;
-    flex: 1 0 calc(33.33% - 20px); /* Pour trois colonnes */
- /*   max-width : calc(33.33% - 20px);
-}
-*/
-
-.image-container img {
-    width: 100%;
-    height: auto;
-}
-
-/* ... Autres styles ... */
