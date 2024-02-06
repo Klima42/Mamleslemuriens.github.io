@@ -86,4 +86,40 @@ input[type="submit"] {
 .sidebar a:hover {
     text-decoration: underline;
 }
+/* Styles généraux */
+
+/* Styles pour les appareils mobiles (jusqu'à 767px de largeur) */
+@media only screen and (max-width: 767px) {
+    /* Réduire la taille de la police pour une meilleure lisibilité */
+    body {
+        font-size: 14px;
+    }
+
+    /* Ajuster la largeur du logo dans l'en-tête */
+    .logo img {
+        width: 30px;
+    }
+
+    /* Réorganiser ou masquer certains éléments pour une présentation plus adaptée aux mobiles */
+    .sidebar {
+        display: none; /* Masquer la barre latérale sur les appareils mobiles */
+    }
+
+    /* Ajouter plus de marge en bas pour séparer les éléments sur les petits écrans */
+    .content {
+        margin-bottom: 20px;
+    }
+
+    /* Ajuster la taille des formulaires pour s'adapter aux écrans plus petits */
+    form {
+        max-width: 300px;
+    }
+
+    /* Ajuster la taille des boutons pour une meilleure expérience tactile */
+    input[type="submit"] {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
 
