@@ -98,7 +98,8 @@ input[type="submit"] {
 
     /* Ajuster la largeur du logo dans l'en-tête */
     .logo img {
-        width: 30px;
+        lenght: 10px;
+        width: 15px;
     }
 
     /* Réorganiser ou masquer certains éléments pour une présentation plus adaptée aux mobiles */
