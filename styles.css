@@ -102,7 +102,7 @@ input[type="submit"] {
 
     /* Réorganiser ou masquer certains éléments pour une présentation plus adaptée aux mobiles */
     .sidebar {
-        display: none; /* Masquer la barre latérale sur les appareils mobiles */
+        width: 100px;
     }
 
     /* Ajouter plus de marge en bas pour séparer les éléments sur les petits écrans */
