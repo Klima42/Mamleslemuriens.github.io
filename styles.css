@@ -87,18 +87,30 @@ input[type="submit"] {
 .sidebar a:hover {
     text-decoration: underline;
 }
+/* Styles généraux pour l'image */
+img {
+    width: 100%; /* Cela rend l'image responsive */
+    height: auto; /* Maintient les proportions de l'image */
+    display: block; /* Évite les marges indésirables */
+    margin: 0 auto; /* Centre l'image horizontalement */
+}
+
 /* Styles généraux */
 
 /* Styles pour les appareils mobiles (jusqu'à 767px de largeur) */
 @media only screen and (max-width: 767px) {
     /* Réduire la taille de la police pour une meilleure lisibilité */
+    img {
+        max-width: 100%; /* Limite la taille de l'image à la largeur de l'écran */
+    }
     body {
         font-size: 14px;
     }
 
     /* Ajuster la largeur du logo dans l'en-tête */
     .logo img {
-        width: 30px;
+        lenght: 10px;
+        width: 15px;
     }
 
     /* Réorganiser ou masquer certains éléments pour une présentation plus adaptée aux mobiles */
