@@ -100,7 +100,8 @@ img {
 /* Styles pour les appareils mobiles (jusqu'à 767px de largeur) */
 @media only screen and (max-width: 767px) {
     /* Réduire la taille de la police pour une meilleure lisibilité */
-    img {
+    
+    .logo {
         max-width: 100%; /* Limite la taille de l'image à la largeur de l'écran */
     }
     body {
