@@ -123,8 +123,8 @@ img {
     }
 
     .logo img {
-         height: auto; /* Rétablir la hauteur automatique pour conserver les proportions */
-        width: 50%; /* Ajuster la largeur à 50% de l'écran pour une meilleure visibilité */
+        height: auto; /* Rétablir la hauteur automatique pour conserver les proportions */
+        width: auto; /* Ajuster la largeur à 50% de l'écran pour une meilleure visibilité */
         max-width: 120px; /* Limite maximale pour la largeur du logo sur les petits écrans */
         margin: 0 auto; /* Centrer le logo dans l'espace disponible */        
     }
