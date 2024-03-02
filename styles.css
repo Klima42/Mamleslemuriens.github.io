@@ -118,7 +118,7 @@ img {
     
     .logo {
          /* Limite la taille de l'image à la largeur de l'écran */
-        flex: 1;
+        flex: 0 1 auto; 
         
     }
 
