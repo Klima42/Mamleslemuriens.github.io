@@ -123,11 +123,25 @@ img {
     }
 
     .logo img {
-        height: auto; /* Rétablir la hauteur automatique pour conserver les proportions */
-        width: auto; /* Ajuster la largeur à 50% de l'écran pour une meilleure visibilité */
-        max-width: 120px; /* Limite maximale pour la largeur du logo sur les petits écrans */
-        margin: 0 auto; /* Centrer le logo dans l'espace disponible */        
+        height: auto; /* Cette ligne s'assurera que le logo garde ses proportions */
+        width: auto; /* Mettre à auto pour que l'image utilise sa taille d'origine */
+        max-width: none; /* Enlève la restriction de la largeur maximale */
+        margin-left: 10px; /* Conserve un peu d'espace sur le côté gauche */
     }
+
+    header {
+        justify-content: flex-start; /* Aligner les éléments à gauche */
+    }
+
+    /* Assurez-vous que le reste du header est configuré pour permettre au logo d'utiliser plus d'espace si nécessaire */
+    nav {
+        flex-grow: 1; /* Permet au nav de remplir l'espace disponible */
+    }
+
+    nav ul {
+        justify-content: flex-end; /* Aligner les liens vers la droite */
+    }
+}
 
     nav ul {
         flex-direction: row; /* Assure que les liens restent en ligne */
