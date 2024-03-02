@@ -5,6 +5,23 @@ body {
     background-color: #e0f5e0;
 }
 
+.logo img {
+    height: 80px; /* Nouvelle hauteur pour le logo */
+    width: 80px; /* Nouvelle largeur pour le logo */
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
 header {
     background-color: #006400;
     color: #fff;
@@ -104,6 +121,21 @@ img {
     .logo {
         max-width: 100%; /* Limite la taille de l'image à la largeur de l'écran */
     }
+
+    .logo img {
+        height: 60px; /* Ajustez si nécessaire pour les appareils mobiles */
+        width: 60px; /* Ajustez si nécessaire pour les appareils mobiles */
+    }
+
+    nav ul {
+        flex-direction: row; /* Assure que les liens restent en ligne */
+        justify-content: space-around; /* Distribue l'espace autour des liens */
+    }
+
+    nav li {
+        margin: 0 5px; /* Réduit l'espace entre les liens sur les petits écrans */
+    }
+
     body {
         font-size: 14px;
     }
