@@ -6,7 +6,7 @@ body {
 }
 
 .logo img {
-    width: 40px; /* Nouvelle largeur pour le logo */
+    width: 100%; /* Nouvelle largeur pour le logo */
 }
 
 nav ul {
