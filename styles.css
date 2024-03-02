@@ -4,9 +4,15 @@ body {
     padding: 0;
     background-color: #e0f5e0;
 }
+.logo {
+    flex: 1;
+}
 
 .logo img {
-    width: 40px; /* Nouvelle largeur pour le logo */
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 nav ul {
@@ -29,12 +35,7 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.logo img {
-    height: 40px;
-    width: 40px;
+    justify-content: flex-start;
 }
 
 .container {
@@ -118,7 +119,9 @@ img {
     /* Réduire la taille de la police pour une meilleure lisibilité */
     
     .logo {
-        max-width: 100%; /* Limite la taille de l'image à la largeur de l'écran */
+         /* Limite la taille de l'image à la largeur de l'écran */
+        flex: 1;
+        
     }
 
     header {
@@ -150,8 +153,11 @@ img {
 
     /* Ajuster la largeur du logo dans l'en-tête */
     .logo img {
-        lenght: 10px;
-        width: 15px;
+        max-height: 100%;
+        max-width: 100%;
+        min-width:100%;
+        height: auto;
+        width: auto;
     }
 
     /* Réorganiser ou masquer certains éléments pour une présentation plus adaptée aux mobiles */
