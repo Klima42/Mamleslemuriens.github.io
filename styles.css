@@ -5,15 +5,13 @@ body {
     background-color: #e0f5e0;
 }
 .logo {
-    flex: 1;
+    flex: 0 1 auto;
 }
-
 .logo img {
-    width: auto;
-    height: auto;
-    max-height: 100%;
-    max-width: 100%;
-}
+        height: auto; /* Cette ligne s'assurera que le logo garde ses proportions */
+        width: auto; /* Mettre à auto pour que l'image utilise sa taille d'origine */
+        max-width: none; /* Enlève la restriction de la largeur maximale
+    }
 
 nav ul {
     display: flex;
