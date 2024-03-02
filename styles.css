@@ -5,12 +5,12 @@ body {
     background-color: #e0f5e0;
 }
 .logo {
-    flex: 0 1 auto;
+    height: auto;
+    width: auto;
 }
 .logo img {
         height: auto; /* Cette ligne s'assurera que le logo garde ses proportions */
         width: auto; /* Mettre à auto pour que l'image utilise sa taille d'origine */
-        max-width: none; /* Enlève la restriction de la largeur maximale
     }
 
 nav ul {
@@ -118,7 +118,8 @@ img {
     
     .logo {
          /* Limite la taille de l'image à la largeur de l'écran */
-        flex: 0 1 auto; 
+        height: auto;
+        width: auto;
         
     }
 
