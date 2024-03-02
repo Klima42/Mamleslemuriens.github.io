@@ -117,7 +117,7 @@ img {
     /* Réduire la taille de la police pour une meilleure lisibilité */
     
     .logo {
-         /* Limite la taille de l'image à la largeur de l'écran */
+         /* Limite la taille de l'image à la largeur de l'écran */    
         height: 60px;
         width: 60px;
         
