@@ -6,8 +6,7 @@ body {
 }
 
 .logo img {
-    height: 80px; /* Nouvelle hauteur pour le logo */
-    width: 80px; /* Nouvelle largeur pour le logo */
+    width: 40px; /* Nouvelle largeur pour le logo */
 }
 
 nav ul {
@@ -120,13 +119,6 @@ img {
     
     .logo {
         max-width: 100%; /* Limite la taille de l'image à la largeur de l'écran */
-    }
-
-    .logo img {
-        height: auto; /* Cette ligne s'assurera que le logo garde ses proportions */
-        width: auto; /* Mettre à auto pour que l'image utilise sa taille d'origine */
-        max-width: none; /* Enlève la restriction de la largeur maximale */
-        margin-left: 10px; /* Conserve un peu d'espace sur le côté gauche */
     }
 
     header {
