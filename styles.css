@@ -109,7 +109,7 @@ input[type="submit"] {
 }
 /* Styles généraux pour l'image */
 img {
-    width: 50%; /* Cela rend l'image responsive */
+    width: 100%; /* Cela rend l'image responsive */
     height: auto; /* Maintient les proportions de l'image */
     display: block; /* Évite les marges indésirables */
     margin: 0 auto; /* Centre l'image horizontalement */
