@@ -49,7 +49,7 @@ header {
 }
 
 .content {
-    flex: 1;
+    flex-basis:20%;
     padding: 20px;
     text-align: center;
 }
