@@ -44,7 +44,7 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     min-height: 100vh;
 }
 
@@ -83,6 +83,10 @@ input[type="submit"] {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
+    flex-shrink: 0; /* Empêche la sidebar de rétrécir */
+    height: 100vh; /* Assure que la sidebar s'étend sur toute la hauteur de la page */
+    position: sticky; /* Optionnel: Rend la sidebar collante lors du défilement */
+    top: 0;
 }
 
 .sidebar h2 {
