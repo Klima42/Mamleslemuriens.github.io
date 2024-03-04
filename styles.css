@@ -12,6 +12,11 @@ body {
     height: 60px;
     width: 60px;
 }
+nav {
+    flex-grow: 1; /* Permet à la balise <nav> de prendre l'espace disponible */
+    display: flex; /* Utilise flexbox pour aligner les éléments */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
 
 nav ul {
     display: flex;
